@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>源码学习 | GitBlogs with Vue</title>
+    <meta name="description" content="成长没有偏旁，所以它才孤独。">
+    <meta name="generator" content="VuePress 1.3.0">
+    <link rel="icon" href="/doc-gitblogs/favicon.png">
+    
+    <link rel="preload" href="/doc-gitblogs/assets/css/0.styles.157f4010.css" as="style"><link rel="preload" href="/doc-gitblogs/assets/js/app.97e36b95.js" as="script"><link rel="preload" href="/doc-gitblogs/assets/js/2.9ee2c125.js" as="script"><link rel="preload" href="/doc-gitblogs/assets/js/12.56fddbad.js" as="script"><link rel="prefetch" href="/doc-gitblogs/assets/js/10.72058a70.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/100.42d5dfa6.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/101.0150ff5f.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/102.f5bddb67.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/103.04be66e2.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/104.2ef1b44f.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/105.b9053649.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/106.1372fb90.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/107.47fdc71b.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/108.1adf71e4.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/109.72abb4a3.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/11.4947de36.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/110.60b9ee68.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/111.f60cfd2c.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/112.69f4d102.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/113.d43c76e7.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/114.339e5a43.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/115.da81ebaa.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/116.c3dc69bd.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/117.c2c0c295.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/118.2a738c5c.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/119.9f9645e9.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/120.4dd71efe.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/121.9cbbe83e.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/122.b38a6e0b.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/123.97501341.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/124.fbd74a80.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/125.f1d6a6e8.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/126.82b1d3ff.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/127.3fb52e09.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/128.9aecb829.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/129.0b6b2779.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/13.a28e39e3.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/130.3056413a.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/131.0a5e1c92.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/132.e9b8eff5.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/133.7aeeb566.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/134.a0c927e8.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/135.f886ffb6.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/136.36826b3a.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/137.61b99952.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/138.f9ca5bc2.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/139.e17a1d21.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/14.f5679940.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/140.f91a7895.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/141.6ae4cbb6.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/142.52cd6c91.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/143.d9bf28e9.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/144.90e87c8d.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/145.fd77151c.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/146.e40c47ca.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/147.1c512d23.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/148.81e540c6.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/149.a6a30d25.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/15.d48ee102.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/150.841ec0ce.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/151.1ba9c06f.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/152.2e1b92f7.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/153.e641ecbd.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/154.33a19e08.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/155.9da27d36.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/156.66f0c2fd.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/157.f5d6b5a0.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/158.b09cc22c.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/159.a98ca285.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/16.9441f490.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/160.4c5cf492.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/161.8a29a355.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/162.9ac60a9e.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/163.296f9d62.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/164.cbccb5b6.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/165.09496c9f.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/166.2dd9dcd8.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/167.9d729732.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/168.1634d19a.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/169.a8d2e385.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/17.720b0665.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/170.a7f9b3cd.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/171.416a27f0.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/172.a556147c.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/173.cfa307ca.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/174.afd581f9.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/175.7c5110ca.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/176.ce6a7b38.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/177.cf9df139.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/178.69f5d33e.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/179.fc1c8834.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/18.1890527f.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/180.ae020d12.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/181.89f0b339.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/182.b7960324.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/183.1e99915d.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/184.7f5f11c1.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/185.ed7c1e81.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/186.1a913108.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/187.9f694d36.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/188.053aec4f.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/189.31868e42.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/19.f2075e50.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/190.452e3e2f.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/191.8eaffb28.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/192.5b22493c.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/193.bfda682e.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/194.77951196.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/195.6d0f8630.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/196.0d053ab6.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/197.ce097d25.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/198.f7f279b5.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/199.932b72c8.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/20.f30dc700.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/200.eaf96e7f.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/201.34999caa.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/202.77bb2cdb.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/203.bd2a3123.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/204.0d0322e5.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/205.9865ec2c.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/206.cc6808b1.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/207.46ebe609.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/208.789a5a55.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/209.a149a2ae.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/21.960c2b27.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/210.7d3412f5.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/211.508c4514.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/212.3202a118.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/213.25a08df2.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/214.9fac3d5c.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/215.e78ea6d2.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/216.8aff7ee4.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/22.bf869561.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/23.a248e6f1.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/24.8ebc8211.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/25.470bc48f.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/26.8a717cc8.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/27.18fc88ae.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/28.626330fd.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/29.4e12f0ca.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/3.29406db0.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/30.f4fa21c4.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/31.00250cb2.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/32.864444ba.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/33.77c3cd6b.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/34.b5959a4a.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/35.2cd7dbf1.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/36.d7170374.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/37.9c37ead0.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/38.7aef6e04.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/39.483131c8.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/4.c01c3228.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/40.57f0cfba.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/41.458463aa.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/42.3a07f007.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/43.fd3e1da1.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/44.2147b7dc.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/45.664492e7.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/46.13e7983f.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/47.f456ab18.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/48.d9794309.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/49.28f0f669.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/5.6fe05192.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/50.f33859d1.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/51.258b85ff.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/52.f4242ee7.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/53.28720b0b.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/54.b0c17cc4.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/55.f9d93014.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/56.bca43689.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/57.da56dd7b.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/58.a996672f.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/59.c4631322.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/6.3b0723c5.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/60.a08fd683.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/61.e7443565.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/62.03dcb080.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/63.c54afc9d.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/64.61f1defb.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/65.fd1982c9.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/66.b950b9b8.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/67.56aceaac.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/68.5bc0eeef.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/69.cea81ddf.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/7.499e97b9.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/70.11d4337f.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/71.9b9f0526.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/72.9fae8b85.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/73.301b2c13.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/74.89b41651.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/75.d0bd9d0f.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/76.d211821b.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/77.639813ff.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/78.f4c82884.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/79.42ac0aac.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/8.694ac5e9.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/80.ebf293c8.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/81.13db21f9.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/82.0bc5ff33.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/83.61b0d952.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/84.7db9e6a6.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/85.f608b52a.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/86.455f78fa.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/87.9231c5c7.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/88.8b37f54a.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/89.84d44b81.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/9.819d2a4f.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/90.4f865de6.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/91.57a6dbe0.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/92.b9860e0a.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/93.8cd9e6ec.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/94.36a88311.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/95.eb9892b5.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/96.6bf8dae0.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/97.94f83816.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/98.6d244e24.js"><link rel="prefetch" href="/doc-gitblogs/assets/js/99.4f1a9cd7.js">
+    <link rel="stylesheet" href="/doc-gitblogs/assets/css/0.styles.157f4010.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/doc-gitblogs/" class="home-link router-link-active"><!----> <span class="site-name">GitBlogs with Vue</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="OJ杂烩" class="dropdown-title"><span class="title">OJ杂烩</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://blog.csdn.net/gdut_yy/article/details/80045155" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  原 CSDN
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_oj/JIANZHIOffer/" class="nav-link">
+  《剑指 Offer》
+</a></li><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_oj/BIANCHENGZHIMEI/" class="nav-link">
+  《编程之美》
+</a></li><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_oj/GAOJISHUJUJIEGOU/" class="nav-link">
+  《高级数据结构》
+</a></li><li class="dropdown-item"><!----> <a href="https://gdut_yy.gitee.io/doc1-leetcode/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  LeetCode 题集
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="阅读" class="dropdown-title"><span class="title">阅读</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          阅读
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/doc-gitblogs/module_book/tech/" class="nav-link">
+  技术书籍
+</a></li><li class="dropdown-subitem"><a href="/doc-gitblogs/module_book/tech-extra/" class="nav-link">
+  泛技术书籍
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="观影" class="dropdown-title"><span class="title">观影</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_movie/movie/" class="nav-link">
+  电影
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Wiki" class="dropdown-title"><span class="title">Wiki</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_wiki/flutter/" class="nav-link">
+  Flutter
+</a></li><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_wiki/git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_wiki/maven/" class="nav-link">
+  Maven
+</a></li><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_wiki/vscode/" class="nav-link">
+  VSCode
+</a></li><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_wiki/roadmap/" class="nav-link">
+  Roadmap
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习" class="dropdown-title"><span class="title">学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          JS &amp; CSS &amp; HTML
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-ydkjs/up&amp;going/ch1.html" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《你不知道的 JavaScript》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-fljs/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《轻量函数式 JavaScript》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-csstdg4/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《CSS 权威指南 4th》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          Java
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-onjava8/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《OnJava8》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-ej3/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《Effective Java 3rd》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-java8/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《Java 8 函数式编程》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-java9/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《Java 9 模块化开发》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          Architecture
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-cleancode/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《代码整洁之道》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-cleanarch/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《架构整洁之道》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-refact2/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《重构 改善既有代码的设计 2nd》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-aposd/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《A Philosophy of Software Design》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          DDD
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-ddd/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《领域驱动设计》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-iddd/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《实现领域驱动设计》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          Other
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-pw/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《人件 3rd》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-spip/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《Security Patterns in Practice》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div> <a href="https://github.com/gdut-yy/GitBlogs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="OJ杂烩" class="dropdown-title"><span class="title">OJ杂烩</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://blog.csdn.net/gdut_yy/article/details/80045155" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  原 CSDN
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_oj/JIANZHIOffer/" class="nav-link">
+  《剑指 Offer》
+</a></li><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_oj/BIANCHENGZHIMEI/" class="nav-link">
+  《编程之美》
+</a></li><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_oj/GAOJISHUJUJIEGOU/" class="nav-link">
+  《高级数据结构》
+</a></li><li class="dropdown-item"><!----> <a href="https://gdut_yy.gitee.io/doc1-leetcode/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  LeetCode 题集
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="阅读" class="dropdown-title"><span class="title">阅读</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          阅读
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/doc-gitblogs/module_book/tech/" class="nav-link">
+  技术书籍
+</a></li><li class="dropdown-subitem"><a href="/doc-gitblogs/module_book/tech-extra/" class="nav-link">
+  泛技术书籍
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="观影" class="dropdown-title"><span class="title">观影</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_movie/movie/" class="nav-link">
+  电影
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Wiki" class="dropdown-title"><span class="title">Wiki</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_wiki/flutter/" class="nav-link">
+  Flutter
+</a></li><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_wiki/git/" class="nav-link">
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_wiki/maven/" class="nav-link">
+  Maven
+</a></li><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_wiki/vscode/" class="nav-link">
+  VSCode
+</a></li><li class="dropdown-item"><!----> <a href="/doc-gitblogs/module_wiki/roadmap/" class="nav-link">
+  Roadmap
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="学习" class="dropdown-title"><span class="title">学习</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          JS &amp; CSS &amp; HTML
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-ydkjs/up&amp;going/ch1.html" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《你不知道的 JavaScript》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-fljs/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《轻量函数式 JavaScript》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-csstdg4/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《CSS 权威指南 4th》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          Java
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-onjava8/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《OnJava8》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-ej3/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《Effective Java 3rd》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-java8/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《Java 8 函数式编程》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-java9/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《Java 9 模块化开发》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          Architecture
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-cleancode/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《代码整洁之道》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-cleanarch/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《架构整洁之道》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-refact2/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《重构 改善既有代码的设计 2nd》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-aposd/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《A Philosophy of Software Design》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          DDD
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-ddd/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《领域驱动设计》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-iddd/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《实现领域驱动设计》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li><li class="dropdown-item"><h4>
+          Other
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-pw/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《人件 3rd》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://gdut_yy.gitee.io/doc-spip/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  《Security Patterns in Practice》
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div> <a href="https://github.com/gdut-yy/GitBlogs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="源码学习"><a href="#源码学习" aria-hidden="true" class="header-anchor">#</a> 源码学习</h1> <h2 id="minipack-源码学习"><a href="#minipack-源码学习" aria-hidden="true" class="header-anchor">#</a> minipack 源码学习</h2> <p>源码地址：<a href="https://github.com/ronami/minipack" target="_blank" rel="noopener noreferrer">https://github.com/ronami/minipack<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">/**
+ * Module bundlers compile small pieces of code into something larger and more
+ * complex that can run in a web browser. These small pieces are just JavaScript
+ * files, and dependencies between them are expressed by a module system
+ * (https://webpack.js.org/concepts/modules).
+ *
+ * 模块捆绑器将小段代码编译成可以在web浏览器中运行的更大更复杂的代码。
+ * 这些小块只是JavaScript文件，它们之间的依赖关系由模块系统表示
+ * (https://webpack.js.org/concepts/modules)。
+ *
+ * Module bundlers have this concept of an entry file. Instead of adding a few
+ * script tags in the browser and letting them run, we let the bundler know
+ * which file is the main file of our application. This is the file that should
+ * bootstrap our entire application.
+ *
+ * 模块绑定器有一个条目文件的概念。我们没有在浏览器中添加一些脚本标记并让它们运行，
+ * 而是让bundler知道哪个文件是应用程序的主文件。这是应该引导整个应用程序的文件。
+ *
+ * Our bundler will start from that entry file, and it will try to understand
+ * which files it depends on. Then, it will try to understand which files its
+ * dependencies depend on. It will keep doing that until it figures out about
+ * every module in our application, and how they depend on one another.
+ *
+ * 我们的bundler将从该条目文件开始，它将尝试理解它所依赖的文件。然后，它将尝试理解依赖关系
+ * 所依赖的文件。它会一直这样做，直到它弄清楚应用程序中的每个模块，以及它们之间是如何相互依赖的。
+ *
+ * This understanding of a project is called the dependency graph.
+ *
+ * 对项目的这种理解称为依赖关系图。
+ *
+ * In this example, we will create a dependency graph and use it to package
+ * all of its modules in one bundle.
+ *
+ * 在本例中，我们将创建一个依赖关系图，并使用它将所有模块打包到一个包中。
+ *
+ * Let's begin :)
+ *
+ * 让我们开始吧 :)
+ *
+ * Please note: This is a very simplified example. Handling cases such as
+ * circular dependencies, caching module exports, parsing each module just once
+ * and others are skipped to make this example as simple as possible.
+ *
+ * 请注意:这是一个非常简单的例子。处理循环依赖关系、缓存模块导出、只解析每个模块一次等情况，
+ * 并跳过其他内容，以使这个示例尽可能简单。
+ */</span>
+
+<span class="token keyword">const</span> fs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;fs&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;path&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> babylon <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;babylon&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> traverse <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;babel-traverse&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span>default<span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span> transformFromAst <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">&quot;babel-core&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">let</span> <span class="token constant">ID</span> <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+<span class="token comment">// We start by creating a function that will accept a path to a file, read</span>
+<span class="token comment">// its contents, and extract its dependencies.</span>
+<span class="token comment">//</span>
+<span class="token comment">// 我们首先创建一个函数，该函数将接受文件的路径、读取其内容并提取其依赖项。</span>
+<span class="token keyword">function</span> <span class="token function">createAsset</span><span class="token punctuation">(</span><span class="token parameter">filename</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// Read the content of the file as a string.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 将文件的内容作为字符串读取。</span>
+  <span class="token keyword">const</span> content <span class="token operator">=</span> fs<span class="token punctuation">.</span><span class="token function">readFileSync</span><span class="token punctuation">(</span>filename<span class="token punctuation">,</span> <span class="token string">&quot;utf-8&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// Now we try to figure out which files this file depends on. We can do that</span>
+  <span class="token comment">// by looking at its content for import strings. However, this is a pretty</span>
+  <span class="token comment">// clunky approach, so instead, we will use a JavaScript parser.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 现在我们试着找出这个文件所依赖的文件。我们可以通过查看导入字符串的内容来做到这一点。</span>
+  <span class="token comment">// 然而，这是一种非常笨拙的方法，因此我们将使用JavaScript解析器。</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// JavaScript parsers are tools that can read and understand JavaScript code.</span>
+  <span class="token comment">// They generate a more abstract model called an AST (abstract syntax tree).</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// JavaScript解析器是能够读取和理解JavaScript代码的工具。</span>
+  <span class="token comment">// 它们生成一个更抽象的模型，称为AST(抽象语法树)。</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// I strongly suggest that you look at AST Explorer (https://astexplorer.net)</span>
+  <span class="token comment">// to see how an AST looks like.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 我强烈建议您查看一下AST Explorer (https://astexplorer.net)，看看AST是什么样子的。</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// The AST contains a lot of information about our code. We can query it to</span>
+  <span class="token comment">// understand what our code is trying to do.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// AST包含了很多关于我们代码的信息。我们可以查询它来理解我们的代码试图做什么。</span>
+  <span class="token keyword">const</span> ast <span class="token operator">=</span> babylon<span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>content<span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    sourceType<span class="token punctuation">:</span> <span class="token string">&quot;module&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// This array will hold the relative paths of modules this module depends on.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 此数组将保存此模块所依赖的模块的相对路径。</span>
+  <span class="token keyword">const</span> dependencies <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// We traverse the AST to try and understand which modules this module depends</span>
+  <span class="token comment">// on. To do that, we check every import declaration in the AST.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 我们遍历AST，试图理解此模块依赖于哪些模块。为此，我们检查AST中的每个导入声明。</span>
+  <span class="token function">traverse</span><span class="token punctuation">(</span>ast<span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    <span class="token comment">// EcmaScript modules are fairly easy because they are static. This means</span>
+    <span class="token comment">// that you can't import a variable, or conditionally import another module.</span>
+    <span class="token comment">// Every time we see an import statement we can just count its value as a</span>
+    <span class="token comment">// dependency.</span>
+    <span class="token comment">//</span>
+    <span class="token comment">// EcmaScript模块非常简单，因为它们是静态的。这意味着您不能导入变量，</span>
+    <span class="token comment">// 也不能有条件地导入另一个模块。每次看到import语句时，我们都可以将它的值作为依赖项来计算。</span>
+    <span class="token function-variable function">ImportDeclaration</span><span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">{</span> node <span class="token punctuation">}</span></span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      <span class="token comment">// We push the value that we import into the dependencies array.</span>
+      <span class="token comment">//</span>
+      <span class="token comment">// 我们将导入的值推入dependencies数组。</span>
+      dependencies<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>node<span class="token punctuation">.</span>source<span class="token punctuation">.</span>value<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// We also assign a unique identifier to this module by incrementing a simple</span>
+  <span class="token comment">// counter.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 我们还通过递增一个简单计数器为这个模块分配一个唯一标识符。</span>
+  <span class="token keyword">const</span> id <span class="token operator">=</span> <span class="token constant">ID</span><span class="token operator">++</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// We use EcmaScript modules and other JavaScript features that may not be</span>
+  <span class="token comment">// supported on all browsers. To make sure our bundle runs in all browsers we</span>
+  <span class="token comment">// will transpile it with Babel (see https://babeljs.io).</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 我们使用EcmaScript模块和其他JavaScript特性，这些特性可能不是所有浏览器都支持的。</span>
+  <span class="token comment">// 为了确保我们的包在所有浏览器中运行，我们将用Babel替换它(参见https://babeljs.io)。</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// The `presets` option is a set of rules that tell Babel how to transpile</span>
+  <span class="token comment">// our code. We use `babel-preset-env` to transpile our code to something</span>
+  <span class="token comment">// that most browsers can run.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// “presets”选项是一组告诉Babel如何转换代码的规则。我们使用“babel-preset-env”</span>
+  <span class="token comment">// 将代码转换为大多数浏览器都能运行的代码。</span>
+  <span class="token keyword">const</span> <span class="token punctuation">{</span> code <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token function">transformFromAst</span><span class="token punctuation">(</span>ast<span class="token punctuation">,</span> <span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    presets<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">&quot;env&quot;</span><span class="token punctuation">]</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// Return all information about this module.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 返回关于此模块的所有信息。</span>
+  <span class="token keyword">return</span> <span class="token punctuation">{</span>
+    id<span class="token punctuation">,</span>
+    filename<span class="token punctuation">,</span>
+    dependencies<span class="token punctuation">,</span>
+    code
+  <span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Now that we can extract the dependencies of a single module, we are going to</span>
+<span class="token comment">// start by extracting the dependencies of the entry file.</span>
+<span class="token comment">//</span>
+<span class="token comment">// 现在我们可以提取单个模块的依赖关系，我们将从提取条目文件的依赖关系开始。</span>
+<span class="token comment">//</span>
+<span class="token comment">// Then, we are going to extract the dependencies of every one of its</span>
+<span class="token comment">// dependencies. We will keep that going until we figure out about every module</span>
+<span class="token comment">// in the application and how they depend on one another. This understanding of</span>
+<span class="token comment">// a project is called the dependency graph.</span>
+<span class="token comment">//</span>
+<span class="token comment">// 然后，我们将提取每个依赖项的依赖项。我们将继续这样做，直到我们弄清楚应用程序中的</span>
+<span class="token comment">// 每个模块以及它们之间是如何相互依赖的。对项目的这种理解称为依赖关系图。</span>
+<span class="token keyword">function</span> <span class="token function">createGraph</span><span class="token punctuation">(</span><span class="token parameter">entry</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// Start by parsing the entry file.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 首先解析条目文件。</span>
+  <span class="token keyword">const</span> mainAsset <span class="token operator">=</span> <span class="token function">createAsset</span><span class="token punctuation">(</span>entry<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// We're going to use a queue to parse the dependencies of every asset. To do</span>
+  <span class="token comment">// that we are defining an array with just the entry asset.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 我们将使用一个队列来解析每个资产的依赖关系。为此，我们定义了一个只有条目资产的数组。</span>
+  <span class="token keyword">const</span> queue <span class="token operator">=</span> <span class="token punctuation">[</span>mainAsset<span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// We use a `for ... of` loop to iterate over the queue. Initially the queue</span>
+  <span class="token comment">// only has one asset but as we iterate it we will push additional new assets</span>
+  <span class="token comment">// into the queue. This loop will terminate when the queue is empty.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 我们用 `for ... of` 循环来遍历队列。最初队列只有一个资产，但是当我们迭代它时，</span>
+  <span class="token comment">// 我们将把额外的新资产推入队列。当队列为空时，此循环将终止。</span>
+  <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">const</span> asset <span class="token keyword">of</span> queue<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">// Every one of our assets has a list of relative paths to the modules it</span>
+    <span class="token comment">// depends on. We are going to iterate over them, parse them with our</span>
+    <span class="token comment">// `createAsset()` function, and track the dependencies this module has in</span>
+    <span class="token comment">// this object.</span>
+    <span class="token comment">//</span>
+    <span class="token comment">// 我们的每个资产都有一个到它所依赖的模块的相对路径列表。我们将遍历它们，</span>
+    <span class="token comment">// 使用“createAsset()”函数解析它们，并跟踪这个模块在这个对象中的依赖关系。</span>
+    asset<span class="token punctuation">.</span>mapping <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// This is the directory this module is in.</span>
+    <span class="token comment">//</span>
+    <span class="token comment">// 这是这个模块所在的目录。</span>
+    <span class="token keyword">const</span> dirname <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token function">dirname</span><span class="token punctuation">(</span>asset<span class="token punctuation">.</span>filename<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// We iterate over the list of relative paths to its dependencies.</span>
+    <span class="token comment">//</span>
+    <span class="token comment">// 我们遍历其依赖项的相对路径列表。</span>
+    asset<span class="token punctuation">.</span>dependencies<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token parameter">relativePath</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+      <span class="token comment">// Our `createAsset()` function expects an absolute filename. The</span>
+      <span class="token comment">// dependencies array is an array of relative paths. These paths are</span>
+      <span class="token comment">// relative to the file that imported them. We can turn the relative path</span>
+      <span class="token comment">// into an absolute one by joining it with the path to the directory of</span>
+      <span class="token comment">// the parent asset.</span>
+      <span class="token comment">//</span>
+      <span class="token comment">// 函数的作用是:创建一个绝对文件名。依赖项数组是一个相对路径数组。这些路径相对于导入它们的</span>
+      <span class="token comment">// 文件。通过将相对路径与父资产目录的路径连接起来，我们可以将相对路径转换为绝对路径。</span>
+      <span class="token keyword">const</span> absolutePath <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>dirname<span class="token punctuation">,</span> relativePath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+      <span class="token comment">// Parse the asset, read its content, and extract its dependencies.</span>
+      <span class="token comment">//</span>
+      <span class="token comment">// 解析资产，读取其内容，并提取其依赖项。</span>
+      <span class="token keyword">const</span> child <span class="token operator">=</span> <span class="token function">createAsset</span><span class="token punctuation">(</span>absolutePath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+      <span class="token comment">// It's essential for us to know that `asset` depends on `child`. We</span>
+      <span class="token comment">// express that relationship by adding a new property to the `mapping`</span>
+      <span class="token comment">// object with the id of the child.</span>
+      <span class="token comment">//</span>
+      <span class="token comment">// 我们必须知道“资产”取决于“孩子”。我们通过使用子对象的id向“mapping”对象</span>
+      <span class="token comment">// 添加一个新属性来表达这种关系。</span>
+      asset<span class="token punctuation">.</span>mapping<span class="token punctuation">[</span>relativePath<span class="token punctuation">]</span> <span class="token operator">=</span> child<span class="token punctuation">.</span>id<span class="token punctuation">;</span>
+
+      <span class="token comment">// Finally, we push the child asset into the queue so its dependencies</span>
+      <span class="token comment">// will also be iterated over and parsed.</span>
+      <span class="token comment">//</span>
+      <span class="token comment">// 最后，我们将子资产推入队列，这样它的依赖关系也将被迭代和解析。</span>
+      queue<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>child<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token comment">// At this point the queue is just an array with every module in the target</span>
+  <span class="token comment">// application: This is how we represent our graph.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 此时，队列只是一个数组，包含目标应用程序中的每个模块:这就是我们表示图形的方式。</span>
+  <span class="token keyword">return</span> queue<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// Next, we define a function that will use our graph and return a bundle that</span>
+<span class="token comment">// we can run in the browser.</span>
+<span class="token comment">//</span>
+<span class="token comment">// 接下来，我们定义一个函数，它将使用我们的图形并返回一个可以在浏览器中运行的包。</span>
+<span class="token comment">//</span>
+<span class="token comment">// Our bundle will have just one self-invoking function:</span>
+<span class="token comment">//</span>
+<span class="token comment">// 我们的包将只有一个自调用功能:</span>
+<span class="token comment">//</span>
+<span class="token comment">// (function() {})()</span>
+<span class="token comment">//</span>
+<span class="token comment">// That function will receive just one parameter: An object with information</span>
+<span class="token comment">// about every module in our graph.</span>
+<span class="token comment">//</span>
+<span class="token comment">// 该函数将只接收一个参数:一个对象，其中包含关于图中每个模块的信息。</span>
+<span class="token keyword">function</span> <span class="token function">bundle</span><span class="token punctuation">(</span><span class="token parameter">graph</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> modules <span class="token operator">=</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// Before we get to the body of that function, we'll construct the object that</span>
+  <span class="token comment">// we'll pass to it as a parameter. Please note that this string that we're</span>
+  <span class="token comment">// building gets wrapped by two curly braces ({}) so for every module, we add</span>
+  <span class="token comment">// a string of this format: `key: value,`.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 在我们进入函数主体之前，我们先构造一个对象作为参数传递给它。请注意，我们正在构建的</span>
+  <span class="token comment">// 这个字符串被两个大括号({})包围，因此对于每个模块，我们添加一个这种格式的字符串:`key: value,`。</span>
+  graph<span class="token punctuation">.</span><span class="token function">forEach</span><span class="token punctuation">(</span><span class="token parameter">mod</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    <span class="token comment">// Every module in the graph has an entry in this object. We use the</span>
+    <span class="token comment">// module's id as the key and an array for the value (we have 2 values for</span>
+    <span class="token comment">// every module).</span>
+    <span class="token comment">//</span>
+    <span class="token comment">// 图中的每个模块在这个对象中都有一个条目。我们使用模块的id作为键和值的数组(每个模块有两个值)。</span>
+    <span class="token comment">//</span>
+    <span class="token comment">// The first value is the code of each module wrapped with a function. This</span>
+    <span class="token comment">// is because modules should be scoped: Defining a variable in one module</span>
+    <span class="token comment">// shouldn't affect others or the global scope.</span>
+    <span class="token comment">//</span>
+    <span class="token comment">// 第一个值是用函数封装的每个模块的代码。这是因为模块应该有作用域:在一个模块中定义变量</span>
+    <span class="token comment">// 不应该影响其他模块或全局作用域。</span>
+    <span class="token comment">//</span>
+    <span class="token comment">// Our modules, after we transpiled them, use the CommonJS module system:</span>
+    <span class="token comment">// They expect a `require`, a `module` and an `exports` objects to be</span>
+    <span class="token comment">// available. Those are not normally available in the browser so we'll</span>
+    <span class="token comment">// implement them and inject them into our function wrappers.</span>
+    <span class="token comment">//</span>
+    <span class="token comment">// 我们的模块在转换之后，使用CommonJS模块系统:它们期望有一个“require”、一个“module”</span>
+    <span class="token comment">// 和一个“exports”对象可用。这些通常在浏览器中不可用，所以我们将实现它们并将它们注入到函数包装器中。</span>
+    <span class="token comment">//</span>
+    <span class="token comment">// For the second value, we stringify the mapping between a module and its</span>
+    <span class="token comment">// dependencies. This is an object that looks like this:</span>
+    <span class="token comment">//</span>
+    <span class="token comment">// 对于第二个值，我们将模块及其依赖项之间的映射字符串化。这个物体是这样的:</span>
+    <span class="token comment">//</span>
+    <span class="token comment">// { './relative/path': 1 }.</span>
+    <span class="token comment">//</span>
+    <span class="token comment">// This is because the transpiled code of our modules has calls to</span>
+    <span class="token comment">// `require()` with relative paths. When this function is called, we should</span>
+    <span class="token comment">// be able to know which module in the graph corresponds to that relative</span>
+    <span class="token comment">// path for this module.</span>
+    <span class="token comment">//</span>
+    <span class="token comment">// 这是因为我们模块的换位代码调用了‘require()’和相对路径。当调用这个函数时，我们应该能够</span>
+    <span class="token comment">// 知道图中的哪个模块对应于这个模块的相对路径。</span>
+    modules <span class="token operator">+=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>mod<span class="token punctuation">.</span>id<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">: [
+      function (require, module, exports) {
+        </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>mod<span class="token punctuation">.</span>code<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">
+      },
+      </span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span><span class="token constant">JSON</span><span class="token punctuation">.</span><span class="token function">stringify</span><span class="token punctuation">(</span>mod<span class="token punctuation">.</span>mapping<span class="token punctuation">)</span><span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">,
+    ],</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// Finally, we implement the body of the self-invoking function.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 最后，我们实现了自调用函数的主体。</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// We start by creating a `require()` function: It accepts a module id and</span>
+  <span class="token comment">// looks for it in the `modules` object we constructed previously. We</span>
+  <span class="token comment">// destructure over the two-value array to get our function wrapper and the</span>
+  <span class="token comment">// mapping object.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 我们首先创建一个' require() '函数:它接受一个模块id，并在前面构造的' modules '对象中查找它。</span>
+  <span class="token comment">// 我们对双值数组进行结构分解，以获得函数包装器和映射对象。</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// The code of our modules has calls to `require()` with relative file paths</span>
+  <span class="token comment">// instead of module ids. Our require function expects module ids. Also, two</span>
+  <span class="token comment">// modules might `require()` the same relative path but mean two different</span>
+  <span class="token comment">// modules.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 我们模块的代码使用相对的文件路径而不是模块id调用' require() '。我们的require函数需要</span>
+  <span class="token comment">// 模块id。此外，两个模块可能“需要()”相同的相对路径，但意味着两个不同的模块。</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// To handle that, when a module is required we create a new, dedicated</span>
+  <span class="token comment">// `require` function for it to use. It will be specific to that module and</span>
+  <span class="token comment">// will know to turn its relative paths into ids by using the module's</span>
+  <span class="token comment">// mapping object. The mapping object is exactly that, a mapping between</span>
+  <span class="token comment">// relative paths and module ids for that specific module.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 为了处理这个问题，当需要一个模块时，我们创建一个新的、专用的“require”函数供它使用。</span>
+  <span class="token comment">// 它将特定于该模块，并知道如何使用模块的映射对象将其相对路径转换为id。映射对象就是该</span>
+  <span class="token comment">// 特定模块的相对路径和模块id之间的映射。</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// Lastly, with CommonJs, when a module is required, it can expose values by</span>
+  <span class="token comment">// mutating its `exports` object. The `exports` object, after it has been</span>
+  <span class="token comment">// changed by the module's code, is returned from the `require()` function.</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 最后，使用CommonJs，当需要模块时，它可以通过修改其 `exports` 对象来公开值。</span>
+  <span class="token comment">//  `exports` 对象在被模块代码更改之后，从 `require()` 函数返回。</span>
+  <span class="token keyword">const</span> result <span class="token operator">=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">
+    (function(modules) {
+      function require(id) {
+        const [fn, mapping] = modules[id];
+
+        function localRequire(name) {
+          return require(mapping[name]);
+        }
+
+        const module = { exports : {} };
+
+        fn(localRequire, module, module.exports);
+
+        return module.exports;
+      }
+
+      require(0);
+    })({</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>modules<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">})
+  </span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+
+  <span class="token comment">// We simply return the result, hurray! :)</span>
+  <span class="token comment">//</span>
+  <span class="token comment">// 我们只是返回结果，万岁! :)</span>
+  <span class="token keyword">return</span> result<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> graph <span class="token operator">=</span> <span class="token function">createGraph</span><span class="token punctuation">(</span><span class="token string">&quot;./example/entry.js&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> result <span class="token operator">=</span> <span class="token function">bundle</span><span class="token punctuation">(</span>graph<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/gdut-yy/GitBlogs/edit/github-io/module_blog/learn-source/README.md" target="_blank" rel="noopener noreferrer">帮助我们改善此页面！</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">3/2/2020, 12:07:43 AM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/doc-gitblogs/assets/js/app.97e36b95.js" defer></script><script src="/doc-gitblogs/assets/js/2.9ee2c125.js" defer></script><script src="/doc-gitblogs/assets/js/12.56fddbad.js" defer></script>
+  </body>
+</html>
