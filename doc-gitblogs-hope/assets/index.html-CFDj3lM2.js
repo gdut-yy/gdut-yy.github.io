@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-536cdc1e","path":"/module_algo/ds/","title":"Ds","lang":"zh-CN","frontmatter":{"title":"Ds","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null}');export{e as data};

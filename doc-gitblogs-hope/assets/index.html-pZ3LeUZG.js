@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2c219fe1","path":"/module_algo/misc/","title":"Misc","lang":"zh-CN","frontmatter":{"title":"Misc","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null}');export{e as data};

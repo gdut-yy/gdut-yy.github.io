@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-fa0143bc","path":"/module_algo/","title":"Module Algo","lang":"zh-CN","frontmatter":{"title":"Module Algo","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null}');export{e as data};
