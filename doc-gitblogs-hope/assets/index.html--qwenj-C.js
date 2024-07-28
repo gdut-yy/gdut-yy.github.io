@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-df44a9ec","path":"/module_lanqiao/","title":"Module Lanqiao","lang":"zh-CN","frontmatter":{"title":"Module Lanqiao","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null}');export{e as data};

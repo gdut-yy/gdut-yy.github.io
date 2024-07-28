@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-9a02a258","path":"/module_algo/math/game-theory/","title":"Game Theory","lang":"zh-CN","frontmatter":{"title":"Game Theory","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null}');export{e as data};
