@@ -1,0 +1,29 @@
+import{_ as o}from"./plugin-vue_export-helper-x3n3nnut.js";import{r as c,o as i,c as l,b as n,d as s,e,a as t}from"./app-8t5Tw8wD.js";const d="/doc-gitblogs-hope/assets/sharded-cluster-production-architecture.bakedsvg-G1JPdEho.svg",p={},u=n("h1",{id:"mongodb-环境",tabindex:"-1"},[n("a",{class:"header-anchor",href:"#mongodb-环境","aria-hidden":"true"},"#"),s(" MongoDB 环境")],-1),r=n("h2",{id:"_1-downloads",tabindex:"-1"},[n("a",{class:"header-anchor",href:"#_1-downloads","aria-hidden":"true"},"#"),s(" 1 Downloads")],-1),m=n("code",null,"mongodb-linux-x86_64-ubuntu1804-4.0.28.tgz",-1),b={href:"https://www.mongodb.com/try/download/community",target:"_blank",rel:"noopener noreferrer"},h=t(`<p>当前最新版本是 <code>5.0.6</code>，但因线上项目多是 <code>4.0.x/4.2.x</code>，所以下载：</p><ul><li>Version: <code>4.0.28</code></li><li>Platform: <code>Ubuntu 18.04</code></li><li>Package: <code>tgz</code></li></ul><h2 id="_2-启动" tabindex="-1"><a class="header-anchor" href="#_2-启动" aria-hidden="true">#</a> 2 启动</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># 解压</span>
+<span class="token function">tar</span> zxvf mongodb-linux-x86_64-ubuntu1804-4.0.28.tgz
+<span class="token builtin class-name">cd</span> mongodb-linux-x86_64-ubuntu1804-4.0.28/bin/
+
+<span class="token comment"># 启动</span>
+./mongod <span class="token parameter variable">--bind_ip_all</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_3-索引-createindex" tabindex="-1"><a class="header-anchor" href="#_3-索引-createindex" aria-hidden="true">#</a> 3 索引（createIndex）</h2>`,5),v={href:"https://docs.mongodb.com/manual/reference/method/db.collection.createIndex/",target:"_blank",rel:"noopener noreferrer"},k=t(`<div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># 查看索引</span>
+db.collection.getIndexes<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 创建索引</span>
+db.collection.createIndex<span class="token punctuation">(</span> <span class="token punctuation">{</span> _id: <span class="token string">&quot;hashed&quot;</span> <span class="token punctuation">}</span>, <span class="token punctuation">{</span> background: <span class="token boolean">true</span> <span class="token punctuation">}</span> <span class="token punctuation">)</span>
+
+<span class="token comment"># 查看进度</span>
+db.currentOp<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="_4-分区-shardcollection" tabindex="-1"><a class="header-anchor" href="#_4-分区-shardcollection" aria-hidden="true">#</a> 4 分区（shardCollection）</h2><figure><img src="`+d+`" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># 查看分片状况</span>
+sh.status<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 启用分片</span>
+use admin
+db.runCommand<span class="token punctuation">(</span><span class="token punctuation">{</span> enableSharding: <span class="token string">&quot;db&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
+sh.enableSharding<span class="token punctuation">(</span><span class="token string">&quot;db&quot;</span><span class="token punctuation">)</span>
+
+<span class="token comment"># 判断是否进行了分片</span>
+db.collection.stats<span class="token punctuation">(</span><span class="token punctuation">)</span>.sharded
+
+<span class="token comment"># 进行分片</span>
+db.runCommand<span class="token punctuation">(</span> <span class="token punctuation">{</span> shardCollection: <span class="token string">&quot;db.collection&quot;</span>, key: <span class="token punctuation">{</span>id: <span class="token number">1</span><span class="token punctuation">}</span> <span class="token punctuation">}</span> <span class="token punctuation">)</span>
+sh.shardCollection<span class="token punctuation">(</span> <span class="token string">&quot;db.collection&quot;</span>, <span class="token punctuation">{</span><span class="token string">&quot;id&quot;</span><span class="token builtin class-name">:</span> <span class="token number">1</span><span class="token punctuation">}</span> <span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>（全文完）</p>`,5);function g(_,x){const a=c("ExternalLinkIcon");return i(),l("div",null,[u,r,n("p",null,[m,s(": "),n("a",b,[s("https://www.mongodb.com/try/download/community"),e(a)])]),h,n("p",null,[s("官方文档: "),n("a",v,[s("https://docs.mongodb.com/manual/reference/method/db.collection.createIndex/"),e(a)])]),k])}const w=o(p,[["render",g],["__file","index.html.vue"]]);export{w as default};

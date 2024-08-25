@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-44dc6e63","path":"/module_algo/basic/","title":"Basic","lang":"zh-CN","frontmatter":{"title":"Basic","article":false,"feed":false,"sitemap":false},"headers":[],"git":{},"readingTime":{"minutes":0,"words":1},"filePathRelative":null}');export{e as data};
