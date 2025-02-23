@@ -1,0 +1,29 @@
+{
+  "title": "animation-iteration-count",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ <number> | infinite ]#"
+    },
+    {
+      "name": "Initial value",
+      "content": "1"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements, ::before and ::after pseudo-elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

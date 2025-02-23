@@ -1,0 +1,29 @@
+{
+  "title": "writing-mode",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "horizontal-tb | vertical-rl | vertical-lr"
+    },
+    {
+      "name": "Initial value",
+      "content": "horizontal-tb"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements except table row groups, table column groups, table rows, table columns, ruby base containers, and ruby annotation containers"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

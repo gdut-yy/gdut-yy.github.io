@@ -1,0 +1,29 @@
+{
+  "title": "box-sizing",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "content-box | padding-box | border-box"
+    },
+    {
+      "name": "Initial value",
+      "content": "content-box"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements that accept width or height values"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "title": "top, right, bottom, left",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<length> | <percentage> | auto"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "Positioned elements"
+    },
+    {
+      "name": "Percentages",
+      "content": "Refer to the height of the containing block for top and bottom, and the width of the containing block for right and left"
+    },
+    {
+      "name": "Computed value",
+      "content": "For relative or sticky-positioned elements, see the sections on those positioning types. For static elements, auto; for length values, the corresponding absolute length; for percentage values, the specified value; otherwise, auto."
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "<length>, <percentage>"
+    }
+  ]
+}

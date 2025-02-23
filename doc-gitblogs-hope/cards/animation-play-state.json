@@ -1,0 +1,29 @@
+{
+  "title": "animation-play-state",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ running | paused ]#"
+    },
+    {
+      "name": "Initial value",
+      "content": "running"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements, ::before and ::after pseudo-elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

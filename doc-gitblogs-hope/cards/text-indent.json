@@ -1,0 +1,33 @@
+{
+  "title": "text-indent",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<length> | <percentage>"
+    },
+    {
+      "name": "Initial value",
+      "content": "0"
+    },
+    {
+      "name": "Applies to",
+      "content": "Block-level elements"
+    },
+    {
+      "name": "Percentages",
+      "content": "Refer to the width of the containing block"
+    },
+    {
+      "name": "Computed value",
+      "content": "For percentage values, as specified; for length values, the absolute length"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

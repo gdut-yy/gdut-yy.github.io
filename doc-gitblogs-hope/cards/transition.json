@@ -1,0 +1,33 @@
+{
+  "title": "transition",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<single-transition>#"
+    },
+    {
+      "name": "Initial value",
+      "content": "all 0s ease 0s"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements and :before and :after pseudo-elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    },
+    {
+      "name": "<single-transition>",
+      "content": "= [ [ none | <transition-property> ] ‖ <time> ‖ <transition-timingfunction> ‖ <time> ]#"
+    }
+  ]
+}

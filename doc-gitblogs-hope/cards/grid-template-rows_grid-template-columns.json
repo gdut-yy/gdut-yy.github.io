@@ -1,0 +1,33 @@
+{
+  "title": "grid-template-rows, grid-template-columns",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "none | <track-list> | <auto-track-list>"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "Grid containers"
+    },
+    {
+      "name": "Percentages",
+      "content": "Refer to the inline size (usually width) of the grid container for grid-templatecolumns, and to the block size (usually height) of the grid container for gridtemplate-rows"
+    },
+    {
+      "name": "Computed value",
+      "content": "As declared, with lengths made absolute"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

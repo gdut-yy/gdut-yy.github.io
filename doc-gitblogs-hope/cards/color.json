@@ -1,0 +1,29 @@
+{
+  "title": "color",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<color>"
+    },
+    {
+      "name": "Initial value",
+      "content": "User agent-specific"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

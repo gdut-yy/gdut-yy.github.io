@@ -1,0 +1,29 @@
+{
+  "title": "position",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "static | relative | sticky | absolute | fixed"
+    },
+    {
+      "name": "Initial value",
+      "content": "static"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}
