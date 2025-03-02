@@ -1,0 +1,25 @@
+{
+  "title": "font-kerning",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "auto | normal | none"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "title": "font-stretch",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "normal | ultra-condensed | extra-condensed | condensed | semicondensed | semi-expanded | expanded | extra-expanded | ultraexpanded"
+    },
+    {
+      "name": "Initial value",
+      "content": "normal"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    },
+    {
+      "name": "Note",
+      "content": "Has a corresponding @font-face descriptor (see below)"
+    }
+  ]
+}

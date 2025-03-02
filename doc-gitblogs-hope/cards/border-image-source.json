@@ -1,0 +1,29 @@
+{
+  "title": "border-image-source",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "none | <image>"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements, except internal table elements when border-collapse is collapse"
+    },
+    {
+      "name": "Computed value",
+      "content": "none, or the image with its URL made absolute"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

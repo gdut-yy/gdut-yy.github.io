@@ -1,0 +1,29 @@
+{
+  "title": "animation-timing-function",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ ease | linear | ease-in | ease-out | ease-in-out | step-start | step-end | steps(<integer>, start) | steps(<integer>, end) | cubic-bezier(<number>, <number>, <number>, <number>) ]#"
+    },
+    {
+      "name": "Initial value",
+      "content": "ease"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements, ::before and ::after pseudo-elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

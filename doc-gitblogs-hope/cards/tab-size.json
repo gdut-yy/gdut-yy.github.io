@@ -1,0 +1,29 @@
+{
+  "title": "tab-size",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<length> | <integer>"
+    },
+    {
+      "name": "Initial value",
+      "content": "8"
+    },
+    {
+      "name": "Applies to",
+      "content": "Block elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "The absolute-length equivalent of the specified value"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

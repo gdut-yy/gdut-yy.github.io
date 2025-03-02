@@ -1,0 +1,29 @@
+{
+  "title": "border-color",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<color>{1,4}"
+    },
+    {
+      "name": "Initial value",
+      "content": "Not defined for shorthand properties"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "See individual properties (border-top-color, etc.)"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

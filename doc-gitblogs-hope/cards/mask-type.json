@@ -1,0 +1,29 @@
+{
+  "title": "mask-type",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "luminance | alpha"
+    },
+    {
+      "name": "Initial value",
+      "content": "luminance"
+    },
+    {
+      "name": "Applies to",
+      "content": "SVG <mask> element"
+    },
+    {
+      "name": "Computed value",
+      "content": "As declared"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "backface-visibility",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "visible | hidden"
+    },
+    {
+      "name": "Initial value",
+      "content": "visible"
+    },
+    {
+      "name": "Applies to",
+      "content": "Any transformable element"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

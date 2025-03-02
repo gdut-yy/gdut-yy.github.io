@@ -1,0 +1,33 @@
+{
+  "title": "perspective-origin",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ left | center | right | top | bottom | <percentage> | <length> ] | [ left | center | right | <percentage> | <length> ] && [ top | center | bottom | <percentage> | <length> ] ] <length>?"
+    },
+    {
+      "name": "Initial value",
+      "content": "50% 50%"
+    },
+    {
+      "name": "Applies to",
+      "content": "Any transformable element"
+    },
+    {
+      "name": "Percentages",
+      "content": "Refer to the size of the bounding box (see explanation)"
+    },
+    {
+      "name": "Computed value",
+      "content": "A percentage, except for length values, which are converted to an absolute length"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "<length>, <percentage>"
+    }
+  ]
+}

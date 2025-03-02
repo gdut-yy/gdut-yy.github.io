@@ -1,0 +1,29 @@
+{
+  "title": "table-layout",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "auto | fixed"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "Elements with the display value table or inline-table"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

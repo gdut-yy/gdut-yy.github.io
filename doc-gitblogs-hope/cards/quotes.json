@@ -1,0 +1,25 @@
+{
+  "title": "quotes",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[<string> <string>]+ | none | inherit"
+    },
+    {
+      "name": "Initial value",
+      "content": "User agent-dependent"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    }
+  ]
+}

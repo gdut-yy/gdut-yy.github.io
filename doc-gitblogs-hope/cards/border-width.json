@@ -1,0 +1,29 @@
+{
+  "title": "border-width",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ thin | medium | thick | <length> ]{1,4}"
+    },
+    {
+      "name": "Initial value",
+      "content": "Not defined for shorthand properties"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "See individual properties (border-top-style, etc.)"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}
