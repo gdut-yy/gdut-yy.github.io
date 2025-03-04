@@ -1,0 +1,29 @@
+{
+  "title": "object-fit",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "fill | contain | cover | scale-down | none"
+    },
+    {
+      "name": "Initial value",
+      "content": "fill"
+    },
+    {
+      "name": "Applies to",
+      "content": "Replaced elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As declared"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

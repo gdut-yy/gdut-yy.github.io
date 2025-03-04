@@ -1,0 +1,29 @@
+{
+  "title": "transform-style",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "flat | preserve-3d"
+    },
+    {
+      "name": "Initial value",
+      "content": "flat"
+    },
+    {
+      "name": "Applies to",
+      "content": "Any transformable element"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

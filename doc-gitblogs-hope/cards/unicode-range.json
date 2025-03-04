@@ -1,0 +1,13 @@
+{
+  "title": "unicode-range",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<urange>#"
+    },
+    {
+      "name": "Initial value",
+      "content": "e U+0-10FFFF"
+    }
+  ]
+}

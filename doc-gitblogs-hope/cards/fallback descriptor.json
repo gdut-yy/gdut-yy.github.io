@@ -1,0 +1,17 @@
+{
+  "title": "fallback descriptor",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<counter-style-name>"
+    },
+    {
+      "name": "Initial value",
+      "content": "decimal"
+    },
+    {
+      "name": "Notes",
+      "content": "<counter-style-name> can be any of the values allowed for list-style-type"
+    }
+  ]
+}

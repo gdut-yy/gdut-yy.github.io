@@ -1,0 +1,29 @@
+{
+  "title": "outline",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ <outline-color> ‖ <outline-style> ‖ <outline-width> ]"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "See individual properties"
+    }
+  ]
+}

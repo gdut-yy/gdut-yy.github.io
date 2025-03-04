@@ -1,0 +1,59 @@
+{
+  "title": "display",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[<display-outside> || <display-inside>] | <display-listitem> | <display-internal> | <display-box> | <display-legacy>"
+    },
+    {
+      "name": "Definitions",
+      "content": "See below"
+    },
+    {
+      "name": "Initial value",
+      "content": "inline"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ],
+  "property": [
+    {
+      "name": "display-outside",
+      "content": "block | inline | run-in"
+    },
+    {
+      "name": "display-inside",
+      "content": "flow | flow-root | table | flex | grid | ruby"
+    },
+    {
+      "name": "display-listitem",
+      "content": "list-item&&<display-outside>?&&[ flow | flow-root ]?"
+    },
+    {
+      "name": "display-internal",
+      "content": "table-row-group | table-header-group | table-footer-group | table-row | table-cell | table-column-group | table-column | table-caption | ruby-base | ruby-text | ruby-base-container | ruby-text-container"
+    },
+    {
+      "name": "display-box",
+      "content": "contents | none"
+    },
+    {
+      "name": "display-legacy",
+      "content": "inline-block | inline-list-item | inine-table | inline-flex | inline-grid"
+    }
+  ]
+}

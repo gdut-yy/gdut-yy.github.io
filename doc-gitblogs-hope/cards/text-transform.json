@@ -1,0 +1,29 @@
+{
+  "title": "text-transform",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "uppercase | lowercase | capitalize | none"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "hyphens",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "manual | auto | none"
+    },
+    {
+      "name": "Initial value",
+      "content": "manual"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

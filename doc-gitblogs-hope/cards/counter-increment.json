@@ -1,0 +1,25 @@
+{
+  "title": "counter-increment",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[<identifier> <integer>? ]+ | none | inherit"
+    },
+    {
+      "name": "Initial value",
+      "content": "User agent-dependent"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    }
+  ]
+}

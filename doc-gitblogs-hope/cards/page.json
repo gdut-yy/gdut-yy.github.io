@@ -1,0 +1,25 @@
+{
+  "title": "page",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<identifier> | inherit"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "Block-level elements"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

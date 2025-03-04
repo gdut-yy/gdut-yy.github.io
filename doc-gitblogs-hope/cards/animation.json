@@ -1,0 +1,29 @@
+{
+  "title": "animation",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ <animation-name> ‖ <animation-duration> ‖ <animation-timing-function> ‖ <animation-delay> ‖ <animation-iteration-count> ‖ <animation-direction> ‖ <animation-fill-mode> ‖ <animation-play-state> ]#"
+    },
+    {
+      "name": "Initial value",
+      "content": "0s ease 0s 1 normal none running none"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements, ::before and ::after pseudo-elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

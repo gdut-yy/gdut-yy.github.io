@@ -1,0 +1,29 @@
+{
+  "title": "border-top-color, border-right-color, border-bottom-color, border-left-color",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<color>"
+    },
+    {
+      "name": "Initial value",
+      "content": "The value of color for the element"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "If no value is specified, use the computed value of the property color for the same element; otherwise, as specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

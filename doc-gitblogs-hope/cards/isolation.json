@@ -1,0 +1,29 @@
+{
+  "title": "isolation",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "auto | isolate"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements (in SVG, it applies to container elements, graphics elements, and graphicsreferencing elements)"
+    },
+    {
+      "name": "Computed value",
+      "content": "As declared"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

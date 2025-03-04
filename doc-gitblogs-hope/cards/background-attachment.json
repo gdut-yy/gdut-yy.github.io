@@ -1,0 +1,29 @@
+{
+  "title": "background-attachment",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ scroll | fixed | local ]#"
+    },
+    {
+      "name": "Initial value",
+      "content": "scroll"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}
