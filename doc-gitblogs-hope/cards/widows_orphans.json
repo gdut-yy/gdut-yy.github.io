@@ -1,0 +1,29 @@
+{
+  "title": "widows, orphans",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<integer>"
+    },
+    {
+      "name": "Initial value",
+      "content": "2"
+    },
+    {
+      "name": "Applies to",
+      "content": "block-level elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "title": "empty-cells",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "show | hide"
+    },
+    {
+      "name": "Initial value",
+      "content": "show"
+    },
+    {
+      "name": "Applies to",
+      "content": "Elements with the display value table-cell"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    },
+    {
+      "name": "Note",
+      "content": "Property is ignored unless border-collapse value is separate"
+    }
+  ]
+}

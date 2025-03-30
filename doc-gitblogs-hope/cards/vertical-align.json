@@ -1,0 +1,37 @@
+{
+  "title": "vertical-align",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "baseline | sub | super | top | text-top | middle | bottom | textbottom | <length> | <percentage>"
+    },
+    {
+      "name": "Initial value",
+      "content": "baseline"
+    },
+    {
+      "name": "Applies to",
+      "content": "Inline elements and table cells"
+    },
+    {
+      "name": "Percentages",
+      "content": "Refer to the value of line-height for the element"
+    },
+    {
+      "name": "Computed value",
+      "content": "For percentage and length values, the absolute length; otherwise, as specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "<length>, <percentage>"
+    },
+    {
+      "name": "Note",
+      "content": "When applied to table cells, only the values baseline, top, middle, and bottom are recognized"
+    }
+  ]
+}

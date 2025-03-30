@@ -1,0 +1,33 @@
+{
+  "title": "transform",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<transform-list> | none"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements except “atomic inline-level” boxes (see explanation)"
+    },
+    {
+      "name": "Percentages",
+      "content": "Refer to the size of the bounding box (see explanation)"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified, except for relative length values, which are converted to an absolute length"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "As a transform"
+    }
+  ]
+}

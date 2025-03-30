@@ -1,0 +1,37 @@
+{
+  "title": "border-image-width",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ <length> | <percentage> | <number> | auto ]{1,4}"
+    },
+    {
+      "name": "Initial value",
+      "content": "1"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements, except table elements when border-collapse is collapse"
+    },
+    {
+      "name": "Percentages",
+      "content": "Relative to width/height of the entire border image area; that is, the outer edges of the border box"
+    },
+    {
+      "name": "Computed value",
+      "content": "Four values: each a percentage, number, auto keyword, or <length> made absolute"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    },
+    {
+      "name": "Note",
+      "content": "Values can never be negative"
+    }
+  ]
+}

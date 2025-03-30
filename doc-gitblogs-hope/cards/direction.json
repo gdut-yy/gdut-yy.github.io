@@ -1,0 +1,29 @@
+{
+  "title": "direction",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "ltr | rtl"
+    },
+    {
+      "name": "Initial value",
+      "content": "ltr"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

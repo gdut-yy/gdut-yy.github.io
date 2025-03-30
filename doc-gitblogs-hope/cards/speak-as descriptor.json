@@ -1,0 +1,13 @@
+{
+  "title": "speak-as descriptor",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "auto | bullets | numbers | words | spell-out | <counter-style-name>"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    }
+  ]
+}

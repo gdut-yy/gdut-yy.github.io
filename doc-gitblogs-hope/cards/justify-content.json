@@ -1,0 +1,29 @@
+{
+  "title": "justify-content",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "flex-start | flex-end | center | space-between | space-around | space-evenly"
+    },
+    {
+      "name": "Initial value",
+      "content": "flex-start"
+    },
+    {
+      "name": "Applies to",
+      "content": "Flex containers"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

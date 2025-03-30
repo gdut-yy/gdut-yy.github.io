@@ -1,0 +1,17 @@
+{
+  "title": "font-feature-settings",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "normal | <feature-tag-value>#"
+    },
+    {
+      "name": "Initial value",
+      "content": "normal"
+    },
+    {
+      "name": "Note",
+      "content": "Has a corresponding @font-face descriptor (see below)"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "system descriptor",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "cyclic | numeric | alphabetic | symbolic | additive | [fixed <integer>?] | [ extends <counter-style-name> ]"
+    },
+    {
+      "name": "Initial value",
+      "content": "symbolic"
+    }
+  ]
+}

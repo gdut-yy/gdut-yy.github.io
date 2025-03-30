@@ -1,0 +1,33 @@
+{
+  "title": "size",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "auto | <length>{1,2} | [ <page-size> || [ portrait | landscape ] ]"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "The page area"
+    },
+    {
+      "name": "Computed value",
+      "content": "As declared"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    },
+    {
+      "name": "Note",
+      "content": "<page-size> is one of a dened set of standard pages sizes; see Table 20-1 for details"
+    }
+  ]
+}

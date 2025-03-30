@@ -1,0 +1,17 @@
+{
+  "title": "additive-symbols descriptor",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ <integer> && <symbol> ]#"
+    },
+    {
+      "name": "Initial value",
+      "content": "n/a"
+    },
+    {
+      "name": "Note",
+      "content": "<integer> values must be non-negative, and additive counters are not applied when a counter’s value is negative."
+    }
+  ]
+}

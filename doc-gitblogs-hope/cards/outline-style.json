@@ -1,0 +1,29 @@
+{
+  "title": "outline-style",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "auto | none | solid | dotted | dashed | double | groove | ridge | inset | outset"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

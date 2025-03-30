@@ -1,0 +1,13 @@
+{
+  "title": "range descriptor",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ [ <integer> | infinite ]{2} ]# | auto"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    }
+  ]
+}

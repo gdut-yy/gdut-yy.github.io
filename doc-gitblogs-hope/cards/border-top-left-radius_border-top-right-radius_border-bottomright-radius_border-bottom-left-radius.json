@@ -1,0 +1,33 @@
+{
+  "title": "border-top-left-radius, border-top-right-radius, border-bottomright-radius, border-bottom-left-radius",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ <length> | <percentage> ]{1,2}"
+    },
+    {
+      "name": "Initial value",
+      "content": "0"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements, except internal table elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "Two absolute <length> or <percentage> values"
+    },
+    {
+      "name": "Percentages",
+      "content": "Calculated with respect to the relevant dimension of the border box"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

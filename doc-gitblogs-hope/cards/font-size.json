@@ -1,0 +1,33 @@
+{
+  "title": "font-size",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "xx-small | x-small | small | medium | large | x-large | xx-large | smaller | larger | <length> | <percentage>"
+    },
+    {
+      "name": "Initial value",
+      "content": "medium"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Percentages",
+      "content": "Calculated with respect to the parent element’s font size"
+    },
+    {
+      "name": "Computed value",
+      "content": "An absolute length"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes (numeric keywords only)"
+    }
+  ]
+}

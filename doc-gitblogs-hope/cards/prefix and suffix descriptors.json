@@ -1,0 +1,17 @@
+{
+  "title": "prefix and suffix descriptors",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<symbol>+"
+    },
+    {
+      "name": "Initial value",
+      "content": "n/a"
+    },
+    {
+      "name": "Notes",
+      "content": "A <symbol> can be any Unicode-compliant string, an image reference, or an identifier such as an escaped hexadecimal reference."
+    }
+  ]
+}

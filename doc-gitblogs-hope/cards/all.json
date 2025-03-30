@@ -1,0 +1,13 @@
+{
+    "title": "all",
+    "attr": [
+        {
+            "name": "Value",
+            "content": "inherit | initial | unset"
+        },
+        {
+            "name": "Initial value",
+            "content": "See individual properties"
+        }
+    ]
+}

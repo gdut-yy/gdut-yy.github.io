@@ -1,0 +1,33 @@
+{
+  "title": "width",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<length> | <percentage> | auto"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements except nonreplaced inline elements, table rows, and row groups"
+    },
+    {
+      "name": "Percentages",
+      "content": "Refer to the width of the containing block"
+    },
+    {
+      "name": "Computed value",
+      "content": "For auto and percentage values, as specified; otherwise, an absolute length, unless the property does not apply to the element (then auto)"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}
