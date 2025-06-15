@@ -1,0 +1,29 @@
+{
+  "title": "grid-auto-flow",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ row | column ] ‖ dense"
+    },
+    {
+      "name": "Initial value",
+      "content": "row"
+    },
+    {
+      "name": "Applies to",
+      "content": "Grid containers"
+    },
+    {
+      "name": "Computed value",
+      "content": "As declared"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

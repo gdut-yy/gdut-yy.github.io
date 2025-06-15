@@ -1,0 +1,29 @@
+{
+  "title": "outline-color",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<color> | invert"
+    },
+    {
+      "name": "Initial value",
+      "content": "invert"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

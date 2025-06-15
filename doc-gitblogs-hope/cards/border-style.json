@@ -1,0 +1,33 @@
+{
+  "title": "border-style",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ none | hidden | solid | dotted | dashed | double | groove | ridge | inset | outset ]{1,4}"
+    },
+    {
+      "name": "Initial value",
+      "content": "Not defined for shorthand properties"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "See individual properties (border-top-style, etc.)"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    },
+    {
+      "name": "Note",
+      "content": "According to CSS2, HTML user agents are only required to support solid and none; the rest of the values (except for hidden) may be interpreted as solid. This restriction was dropped in CSS2.1."
+    }
+  ]
+}

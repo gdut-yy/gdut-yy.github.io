@@ -1,0 +1,29 @@
+{
+  "title": "border-top-width, border-right-width, border-bottom-width, border-left-width",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "thin | medium | thick | <length>"
+    },
+    {
+      "name": "Initial value",
+      "content": "medium"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "An absolute length, or 0 if the style of the border is none or hidden"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

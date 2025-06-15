@@ -1,0 +1,29 @@
+{
+  "title": "background-origin",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ border-box | padding-box | content-box ]#"
+    },
+    {
+      "name": "Initial value",
+      "content": "padding-box"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

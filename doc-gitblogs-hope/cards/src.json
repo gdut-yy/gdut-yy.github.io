@@ -1,0 +1,13 @@
+{
+  "title": "src",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ [ <uri> [format(<string>#)]? ] | <font-face-name> ]#"
+    },
+    {
+      "name": "Initial value",
+      "content": "Not defined"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "flex-shrink",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<number>"
+    },
+    {
+      "name": "Initial value",
+      "content": "1"
+    },
+    {
+      "name": "Applies to",
+      "content": "Flex items (children of flex containers)"
+    },
+    {
+      "name": "Percentages",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

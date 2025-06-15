@@ -1,0 +1,29 @@
+{
+  "title": "z-index",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<integer> | auto"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "Positioned elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

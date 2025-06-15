@@ -1,0 +1,29 @@
+{
+  "title": "transition-property",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "none | [ all | <property-name> ]#"
+    },
+    {
+      "name": "Initial value",
+      "content": "all"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements and :before and :after pseudo-elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

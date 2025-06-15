@@ -1,0 +1,13 @@
+{
+  "title": "font-family",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<family-name>"
+    },
+    {
+      "name": "Initial value",
+      "content": "Not defined"
+    }
+  ]
+}

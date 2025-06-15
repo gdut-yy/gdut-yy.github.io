@@ -1,0 +1,29 @@
+{
+  "title": "line-break",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "auto | loose | normal | strict"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

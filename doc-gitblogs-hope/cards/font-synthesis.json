@@ -1,0 +1,25 @@
+{
+  "title": "font-synthesis",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "none | weight ‖ style"
+    },
+    {
+      "name": "Initial value",
+      "content": "weight style"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

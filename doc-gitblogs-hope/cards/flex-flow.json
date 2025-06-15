@@ -1,0 +1,29 @@
+{
+  "title": "flex-flow",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<flex-direction> ‖ <flex-wrap>"
+    },
+    {
+      "name": "Initial value",
+      "content": "row nowrap"
+    },
+    {
+      "name": "Applies to",
+      "content": "Flex containers"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

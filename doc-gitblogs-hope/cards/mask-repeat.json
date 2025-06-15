@@ -1,0 +1,33 @@
+{
+  "title": "mask-repeat",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ repeat-x | repeat-y | [ repeat | space | round | no-repeat ]{1,2} ]#"
+    },
+    {
+      "name": "Initial value",
+      "content": "repeat"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements (in SVG, applies to all graphics elements and all container elements except the <defs>element)"
+    },
+    {
+      "name": "Computed value",
+      "content": "As declared"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    },
+    {
+      "name": "Note",
+      "content": "The keywords for mask-repeat are reproduced from background-repeat and have the same behaviors"
+    }
+  ]
+}

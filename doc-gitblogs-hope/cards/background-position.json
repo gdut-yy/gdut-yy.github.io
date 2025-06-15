@@ -1,0 +1,33 @@
+{
+  "title": "background-position",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<position>#"
+    },
+    {
+      "name": "Initial value",
+      "content": "0% 0%"
+    },
+    {
+      "name": "Percentages",
+      "content": "Refer to the corresponding point on both the element and the origin image (see explanation in “Percentage values” on page 406)"
+    },
+    {
+      "name": "Applies to",
+      "content": "Block-level and replaced elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "The absolute length offsets, if <length> is specified; otherwise, percentage values"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "negative descriptor",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<symbol> <symbol>?"
+    },
+    {
+      "name": "Initial value",
+      "content": "\\2D (the hyphen-minus symbol)"
+    },
+    {
+      "name": "Notes",
+      "content": "negative is only applicable in counting systems that allow negative values: alpha betic, numeric, symbolic, and additive."
+    }
+  ]
+}
