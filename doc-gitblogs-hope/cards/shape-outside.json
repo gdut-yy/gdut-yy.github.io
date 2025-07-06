@@ -1,0 +1,29 @@
+{
+  "title": "shape-outside",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "none | [ <basic-shape> ‖ <shape-box> ] | <image>"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "Floats"
+    },
+    {
+      "name": "Computed value",
+      "content": "For a <basic-shape>, as defined (see below); for an <image>, its URL made absolute; otherwise as specified (see below)"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "<basic-shape>"
+    }
+  ]
+}

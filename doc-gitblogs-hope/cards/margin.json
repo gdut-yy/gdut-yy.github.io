@@ -1,0 +1,33 @@
+{
+  "title": "margin",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ <length> | <percentage> | auto ]{1,4}"
+    },
+    {
+      "name": "Initial value",
+      "content": "Not defined"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Percentages",
+      "content": "Refer to the width of the containing block"
+    },
+    {
+      "name": "Computed value",
+      "content": "See individual properties"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

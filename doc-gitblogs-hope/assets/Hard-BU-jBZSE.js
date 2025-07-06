@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as o,o as r}from"./app-D75trwlE.js";const c={},t={style:{color:"rgb(255 45 85)"}};function s(_,n){return r(),o("span",t,"困难")}const l=e(c,[["render",s],["__file","Hard.vue"]]);export{l as default};

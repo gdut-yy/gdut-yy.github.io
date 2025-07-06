@@ -1,0 +1,29 @@
+{
+  "title": "transition-timing-function",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<timing-function>#"
+    },
+    {
+      "name": "Initial value",
+      "content": "ease"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements and :before and :after pseudo-elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

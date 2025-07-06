@@ -1,0 +1,29 @@
+{
+  "title": "grid",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "none | subgrid | [ <grid-template-rows> / <grid-template-columns> ] | [ <linenames>? <string> <track-size>? <line-names>? ]+ [ / <track-list> ]? | [ <grid-autoflow> [ <grid-auto-rows> [ / <grid-auto-columns> ]? ]? ] ]"
+    },
+    {
+      "name": "Initial value",
+      "content": "See individual properties"
+    },
+    {
+      "name": "Applies to",
+      "content": "Grid containers"
+    },
+    {
+      "name": "Computed value",
+      "content": "See individual properties"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

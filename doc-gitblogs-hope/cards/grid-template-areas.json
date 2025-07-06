@@ -1,0 +1,29 @@
+{
+  "title": "grid-template-areas",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "none | <string>"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "Grid containers"
+    },
+    {
+      "name": "Computed value",
+      "content": "As declared"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "grid-area",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<grid-line> [ / <grid-line> ]{0,3}"
+    },
+    {
+      "name": "Initial value",
+      "content": "See individual properties"
+    },
+    {
+      "name": "Applies to",
+      "content": "Grid items and absolutely positioned elements, if their containing block is a grid container"
+    },
+    {
+      "name": "Computed value",
+      "content": "As declared"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

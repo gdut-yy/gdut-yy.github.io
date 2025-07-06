@@ -1,0 +1,29 @@
+{
+  "title": "mask-origin",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ content-box | padding-box | border-box | margin-box | fill-box | stroke-box | view-box ]#"
+    },
+    {
+      "name": "Initial value",
+      "content": "border-box"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements (in SVG, applies to all graphics elements and all container elements except the <defs>element)"
+    },
+    {
+      "name": "Computed value",
+      "content": "As declared"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

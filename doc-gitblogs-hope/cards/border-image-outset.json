@@ -1,0 +1,37 @@
+{
+  "title": "border-image-outset",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ <length> | <number> ]{1,4}"
+    },
+    {
+      "name": "Initial value",
+      "content": "0"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements, except internal table elements when border-collapse is collapse"
+    },
+    {
+      "name": "Percentages",
+      "content": "N/A"
+    },
+    {
+      "name": "Computed value",
+      "content": "Four values, each a number or <length> made absolute"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    },
+    {
+      "name": "Note",
+      "content": "Values can never be negative"
+    }
+  ]
+}

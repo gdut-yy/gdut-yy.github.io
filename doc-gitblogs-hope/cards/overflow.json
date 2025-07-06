@@ -1,0 +1,29 @@
+{
+  "title": "overflow",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "visible | hidden | scroll | auto"
+    },
+    {
+      "name": "Initial value",
+      "content": "visible"
+    },
+    {
+      "name": "Applies to",
+      "content": "Block-level and replaced elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

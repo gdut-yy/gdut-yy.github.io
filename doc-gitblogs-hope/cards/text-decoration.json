@@ -1,0 +1,29 @@
+{
+  "title": "text-decoration",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "none | [ underline ‖ overline ‖ line-through ‖ blink ]"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

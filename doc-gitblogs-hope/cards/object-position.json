@@ -1,0 +1,33 @@
+{
+  "title": "object-position",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<position>"
+    },
+    {
+      "name": "Initial value",
+      "content": "50% 50%"
+    },
+    {
+      "name": "Applies to",
+      "content": "Replaced elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As declared"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    },
+    {
+      "name": "Notes",
+      "content": "<position> is exactly the same as the values permitted for backgroundposition, and has the same behaviors"
+    }
+  ]
+}

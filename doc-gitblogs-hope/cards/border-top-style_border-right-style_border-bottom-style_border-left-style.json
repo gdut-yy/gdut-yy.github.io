@@ -1,0 +1,29 @@
+{
+  "title": "border-top-style, border-right-style, border-bottom-style, border-left-style",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

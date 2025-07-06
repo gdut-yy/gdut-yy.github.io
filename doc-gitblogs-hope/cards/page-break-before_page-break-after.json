@@ -1,0 +1,29 @@
+{
+  "title": "page-break-before, page-break-after",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "auto | always"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "Nonfloated block-level elements with a position value of relative or static"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    }
+  ]
+}

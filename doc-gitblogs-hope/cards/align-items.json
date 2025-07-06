@@ -1,0 +1,29 @@
+{
+  "title": "align-items",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "flex-start | flex-end | center | baseline | stretch"
+    },
+    {
+      "name": "Initial value",
+      "content": "stretch"
+    },
+    {
+      "name": "Applies to",
+      "content": "Flex containers"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

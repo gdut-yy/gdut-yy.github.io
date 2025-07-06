@@ -1,0 +1,29 @@
+{
+  "title": "clip-rule",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "nonzero | evenodd"
+    },
+    {
+      "name": "Initial value",
+      "content": "nonzero"
+    },
+    {
+      "name": "Applies to",
+      "content": "All SVG graphics elements (<circle>, <ellipse>, <image>, <line>, <path>, <polygon>, <polyline>, <rect>, <text> and <use>) if and only if they are children of a <clipPath> element"
+    },
+    {
+      "name": "Computed value",
+      "content": "As declared"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

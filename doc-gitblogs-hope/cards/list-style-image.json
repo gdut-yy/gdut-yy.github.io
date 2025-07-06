@@ -1,0 +1,25 @@
+{
+  "title": "list-style-image",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<uri> | <image> | none | inherit"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "Elements whose display value is list-item"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Computed value",
+      "content": "For <uri> values, the absolute URI; otherwise, none"
+    }
+  ]
+}

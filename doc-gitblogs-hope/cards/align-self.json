@@ -1,0 +1,29 @@
+{
+  "title": "align-self",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "auto | flex-start | flex-end | center | baseline | stretch"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "Flex containers"
+    },    
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Percentages",
+      "content": "Not applicable"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "title": "background-repeat",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<repeat-style>#"
+    },
+    {
+      "name": "Expansion",
+      "content": "<repeat-style> = repeat-x | repeat-y | [repeat | space | round | norepeat]{1,2}"
+    },
+    {
+      "name": "Initial value",
+      "content": "repeat"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

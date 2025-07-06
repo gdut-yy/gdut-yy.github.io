@@ -1,0 +1,29 @@
+{
+  "title": "flex-direction",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "row | row-reverse | column | column-reverse"
+    },
+    {
+      "name": "Initial value",
+      "content": "row"
+    },
+    {
+      "name": "Applies to",
+      "content": "Flex containers"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

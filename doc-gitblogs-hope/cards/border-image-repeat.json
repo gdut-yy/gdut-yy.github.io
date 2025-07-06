@@ -1,0 +1,33 @@
+{
+  "title": "border-image-repeat",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ stretch | repeat | round | space ]{1,2}"
+    },
+    {
+      "name": "Initial value",
+      "content": "stretch"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements, except internal table elements when border-collapse is collapse"
+    },
+    {
+      "name": "Percentages",
+      "content": "N/A"
+    },
+    {
+      "name": "Computed value",
+      "content": "Two keywords, one for each axis"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

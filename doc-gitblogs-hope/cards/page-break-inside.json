@@ -1,0 +1,25 @@
+{
+  "title": "page-break-inside",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "auto | avoid"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "Nonfloated block-level elements with a position value of relative or static"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    }
+  ]
+}

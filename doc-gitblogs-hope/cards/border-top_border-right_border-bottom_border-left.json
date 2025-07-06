@@ -1,0 +1,29 @@
+{
+  "title": "border-top, border-right, border-bottom, border-left",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ <border-width> ‖ <border-style> ‖ <border-color> ]"
+    },
+    {
+      "name": "Initial value",
+      "content": "Not defined for shorthand properties"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "See individual properties (border-width, etc.)"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "See individual properties"
+    }
+  ]
+}

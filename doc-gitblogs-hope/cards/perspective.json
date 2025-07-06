@@ -1,0 +1,29 @@
+{
+  "title": "perspective",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "none | <length>"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "Any transformable element"
+    },
+    {
+      "name": "Computed value",
+      "content": "The absolute length, or else none"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

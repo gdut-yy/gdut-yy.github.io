@@ -1,0 +1,29 @@
+{
+  "title": "box-shadow",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "none | [inset? && <length>{2,4} && <color>?]#"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "<length> values as absolute length values; <color> values as computed internally; otherwise as specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

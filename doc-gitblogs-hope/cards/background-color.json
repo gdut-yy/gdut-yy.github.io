@@ -1,0 +1,29 @@
+{
+  "title": "background-color",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<color>"
+    },
+    {
+      "name": "Initial value",
+      "content": "transparent"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "title": "font-style",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "italic | oblique | normal"
+    },
+    {
+      "name": "Initial value",
+      "content": "normal"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Note",
+      "content": "Has a corresponding @font-face descriptor"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

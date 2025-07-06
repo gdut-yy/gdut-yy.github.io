@@ -1,0 +1,33 @@
+{
+  "title": "background-image",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ <image># | none"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified, but with all URLs made absolute"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    },
+    {
+      "name": "<image>",
+      "content": "= [ <uri> | <linear-gradient> | <repeating-linear-gradient> | <radialgradient> | <repeating-radial-gradient> ]"
+    }
+  ]
+}

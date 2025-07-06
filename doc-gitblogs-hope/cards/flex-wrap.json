@@ -1,0 +1,29 @@
+{
+  "title": "flex-wrap",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "nowrap | wrap | wrap-reverse"
+    },
+    {
+      "name": "Initial value",
+      "content": "nowrap"
+    },
+    {
+      "name": "Applies to",
+      "content": "Flex containers"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

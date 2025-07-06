@@ -1,0 +1,25 @@
+{
+  "title": "list-style-type",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "disc | circle | square | disclosure-open | disclosure-closed | decimal | decimal-leading-zero | arabic-indic | armenian | upperarmenian | lower-armenian | bengali | cambodian | khmer | cjkdecimal | devanagari | gujarati | gurmukhi | georgian | hebrew | kannada | lao | malayalam | mongolian | myanmar | oriya | persian | lower-roman | upper-roman | tamil | telugu | thai | tibetan | loweralpha | lower-latin | upper-alpha | upper-latin | cjk-earthlybranch | cjk-heavenly-stem | lower-greek | hiragana | hiraganairoha | katakana | katakana-iroha | japanese-informal | japaneseformal | korean-hangul-formal | korean-hanja-informal | koreanhanja-formal | simp-chinese-informal | simp-chinese-formal | trad-chinese-informal | trad-chinese-formal | ethiopic-numeric | <string> | none | inherit"
+    },
+    {
+      "name": "Initial value",
+      "content": "disc"
+    },
+    {
+      "name": "Applies to",
+      "content": "Elements whose display value is list-item"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "title": "caption-side",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "top | bottom"
+    },
+    {
+      "name": "Initial value",
+      "content": "top"
+    },
+    {
+      "name": "Applies to",
+      "content": "Elements with the display value table-caption"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    },
+    {
+      "name": "Note",
+      "content": "The values left and right appeared in CSS2, but were dropped from CSS2.1 due to a lack of widespread support."
+    }
+  ]
+}

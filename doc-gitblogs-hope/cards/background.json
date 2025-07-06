@@ -1,0 +1,41 @@
+{
+  "title": "background",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ <bg-layer> , ]* <final-bg-layer>"
+    },
+    {
+      "name": "Initial value",
+      "content": "Refer to individual properties"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Percentages",
+      "content": "Refer to individual properties"
+    },
+    {
+      "name": "Computed value",
+      "content": "Refer to individual properties"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "See individual properties"
+    },
+    {
+      "name": "<bg-layer>",
+      "content": "= <bg-image> ‖ <position> [ / <bg-size> ]? ‖ <repeat-style> ‖ <attach‐ment> ‖ <box> ‖ <box>"
+    },
+    {
+      "name": "Animatable",
+      "content": "= <bg-image> ‖ <position> [ / <bg-size> ]? ‖ <repeat-style> ‖ <attachment> ‖ <box> ‖ <box> ‖ <background-color>"
+    }
+  ]
+}

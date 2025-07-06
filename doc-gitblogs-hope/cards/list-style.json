@@ -1,0 +1,25 @@
+{
+  "title": "list-style",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ <list-style-type> ‖ <list-style-image> ‖ <list-style-position> ] | inherit"
+    },
+    {
+      "name": "Initial value",
+      "content": "Refer to individual properties"
+    },
+    {
+      "name": "Applies to",
+      "content": "Elements whose display value is list-item"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Computed value",
+      "content": "See individual properties"
+    }
+  ]
+}

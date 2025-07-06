@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as o,o as c}from"./app-D75trwlE.js";const r={},s={style:{color:"rgb(0 175 155)"}};function t(_,n){return c(),o("span",s,"简单")}const l=e(r,[["render",t],["__file","Easy.vue"]]);export{l as default};

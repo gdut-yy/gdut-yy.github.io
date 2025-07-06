@@ -1,0 +1,25 @@
+{
+  "title": "content",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "normal | [ <string> | <uri> | <counter> | attr(<identier>+)+ | open-quote | close-quote | no-open-quote | no-close-quote ]+ | inherit"
+    },
+    {
+      "name": "Initial value",
+      "content": "normal"
+    },
+    {
+      "name": "Applies to",
+      "content": "::before and ::after pseudo-elements"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Computed value",
+      "content": "For <uri> values, an absolute URI; for attribute references, the resulting string; otherwise, as specified"
+    }
+  ]
+}

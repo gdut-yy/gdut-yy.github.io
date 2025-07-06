@@ -1,0 +1,29 @@
+{
+  "title": "text-align-last",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "auto | start | end | left | right | center | justify"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "Block-level elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "title": "word-spacing",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<length> | normal"
+    },
+    {
+      "name": "Initial value",
+      "content": "normal"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "For normal, the absolute length 0; otherwise, the absolute length"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

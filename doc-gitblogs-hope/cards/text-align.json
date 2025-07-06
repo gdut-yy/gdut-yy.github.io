@@ -1,0 +1,33 @@
+{
+  "title": "text-align",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "start | end | left | right | center | justify | match-parent | startend"
+    },
+    {
+      "name": "Initial value",
+      "content": "In CSS3, start; in CSS 2.1, this was user agent-specific, likely depending on writing direction (e.g., left for Western languages like English)"
+    },
+    {
+      "name": "Applies to",
+      "content": "Block-level elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified, except in the case of match-parent"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    },
+    {
+      "name": "Note",
+      "content": "CSS2 included a <length> value that was dropped from CSS 2.1 due to a lack of implementation"
+    }
+  ]
+}

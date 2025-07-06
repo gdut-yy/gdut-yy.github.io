@@ -1,0 +1,33 @@
+{
+  "title": "max-width, max-height",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<length> | <percentage> | none"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements except nonreplaced inline elements and table elements"
+    },
+    {
+      "name": "Percentages",
+      "content": "Refer to the height of the containing block"
+    },
+    {
+      "name": "Computed value",
+      "content": "For percentages, as specified; for length values, the absolute length; otherwise, none"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "<length>, <percentage>"
+    }
+  ]
+}

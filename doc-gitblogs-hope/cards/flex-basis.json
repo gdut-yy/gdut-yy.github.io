@@ -1,0 +1,33 @@
+{
+  "title": "flex-basis",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "content | [ <length> | <percentage> ]"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "Flex items (children of flex containers)"
+    },
+    {
+      "name": "Percentages",
+      "content": "Relative to flex container’s inner main-axis size"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified, with length values made absolute"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "<width>"
+    }
+  ]
+}

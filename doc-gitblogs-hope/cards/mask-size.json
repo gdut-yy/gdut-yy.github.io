@@ -1,0 +1,29 @@
+{
+  "title": "mask-size",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ [ <length> | <percentage> | auto ]{1,2} | cover | contain ]#"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements (in SVG, applies to all graphics elements and all container elements except the <defs>element)"
+    },
+    {
+      "name": "Computed value",
+      "content": "As declared"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "<length>, <percentage>"
+    }
+  ]
+}

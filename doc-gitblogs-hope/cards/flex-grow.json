@@ -1,0 +1,29 @@
+{
+  "title": "flex-grow",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<number>"
+    },
+    {
+      "name": "Initial value",
+      "content": "0"
+    },
+    {
+      "name": "Applies to",
+      "content": "Flex items (children of flex containers)"
+    },
+    {
+      "name": "Percentages",
+      "content": "Valid for flex-basis value only, relative to element’s parent’s inner main-axis size"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

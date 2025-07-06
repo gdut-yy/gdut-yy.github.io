@@ -1,0 +1,33 @@
+{
+  "title": "font-weight",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900"
+    },
+    {
+      "name": "Initial value",
+      "content": "normal"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "One of the numeric values (100, etc.), or one of the numeric values plus one of the relative values (bolder or lighter)"
+    },
+    {
+      "name": "Note",
+      "content": "Has a corresponding @font-face descriptor"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

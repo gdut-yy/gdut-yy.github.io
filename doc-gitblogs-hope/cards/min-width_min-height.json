@@ -1,0 +1,33 @@
+{
+  "title": "min-width, min-height",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<length> | <percentage>"
+    },
+    {
+      "name": "Initial value",
+      "content": "0"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements except nonreplaced inline elements and table elements"
+    },
+    {
+      "name": "Percentages",
+      "content": "Refer to the width of the containing block"
+    },
+    {
+      "name": "Computed value",
+      "content": "For percentages, as specified; for length values, the absolute length; otherwise, none"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "<length>, <percentage>"
+    }
+  ]
+}

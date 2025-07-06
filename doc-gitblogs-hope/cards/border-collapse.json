@@ -1,0 +1,29 @@
+{
+  "title": "border-collapse",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "collapse | separate | inherit"
+    },
+    {
+      "name": "Initial value",
+      "content": "separate"
+    },
+    {
+      "name": "Applies to",
+      "content": "Elements with the display value table or table-inline"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Note",
+      "content": "In CSS2, the default was collapse."
+    }
+  ]
+}

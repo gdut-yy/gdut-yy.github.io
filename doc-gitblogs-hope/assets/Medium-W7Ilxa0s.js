@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-DlAUqK2U.js";import{c as o,o as c}from"./app-D75trwlE.js";const r={},t={style:{color:"rgb(255 184 0)"}};function s(_,n){return c(),o("span",t,"中等")}const i=e(r,[["render",s],["__file","Medium.vue"]]);export{i as default};

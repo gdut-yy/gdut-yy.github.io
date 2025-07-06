@@ -1,0 +1,29 @@
+{
+  "title": "text-orientation",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "mixed | upright | sideways"
+    },
+    {
+      "name": "Initial value",
+      "content": "mixed"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements except table row groups, table rows, table column groups, and table columns"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

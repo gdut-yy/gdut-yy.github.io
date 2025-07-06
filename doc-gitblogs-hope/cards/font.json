@@ -1,0 +1,33 @@
+{
+  "title": "font",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[[ <font-style> ‖ [ normal | small-caps ] ‖ <font-weight> ]? <font-size> [ /<line-height> ]? <font-family>] | caption | icon | menu | message-box | small-caption | status-bar"
+    },
+    {
+      "name": "Initial value",
+      "content": "Refer to individual properties"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Percentages",
+      "content": "Calculated with respect to the parent element for <font-size> and with respect to the element’s <font-size> for <line-height>"
+    },
+    {
+      "name": "Computed value",
+      "content": "See individual properties (font-style, etc.)"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "Refer to individual properties"
+    }
+  ]
+}

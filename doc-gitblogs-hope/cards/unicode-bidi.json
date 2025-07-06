@@ -1,0 +1,29 @@
+{
+  "title": "unicode-bidi",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "normal | embed | bidi-override"
+    },
+    {
+      "name": "Initial value",
+      "content": "normal"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

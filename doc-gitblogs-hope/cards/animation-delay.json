@@ -1,0 +1,29 @@
+{
+  "title": "animation-delay",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<time>#"
+    },
+    {
+      "name": "Initial value",
+      "content": "0s"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements, ::before and ::after pseudo-elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

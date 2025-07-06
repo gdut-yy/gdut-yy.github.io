@@ -1,0 +1,33 @@
+{
+  "title": "border-spacing",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<length> <length>?"
+    },
+    {
+      "name": "Initial value",
+      "content": "0"
+    },
+    {
+      "name": "Applies to",
+      "content": "Elements with the display value table or table-inline"
+    },
+    {
+      "name": "Computed value",
+      "content": "Two absolute lengths"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    },
+    {
+      "name": "Note",
+      "content": "Property is ignored unless border-collapse value is separate"
+    }
+  ]
+}

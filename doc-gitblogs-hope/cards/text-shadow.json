@@ -1,0 +1,25 @@
+{
+  "title": "text-shadow",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "none | [<length> ‖ <length> <length> <length>?]#"
+    },
+    {
+      "name": "Initial value",
+      "content": "none"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

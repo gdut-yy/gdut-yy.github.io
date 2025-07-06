@@ -1,0 +1,29 @@
+{
+  "title": "shape-image-threshold",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<number>"
+    },
+    {
+      "name": "Initial value",
+      "content": "0.0"
+    },
+    {
+      "name": "Applies to",
+      "content": "Floats"
+    },
+    {
+      "name": "Computed value",
+      "content": "The same as the specified value after clipping the <number> to the range [0.0, 1.0]"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

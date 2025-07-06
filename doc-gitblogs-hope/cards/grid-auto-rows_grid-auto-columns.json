@@ -1,0 +1,33 @@
+{
+  "title": "grid-auto-rows, grid-auto-columns",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<track-breadth> | minmax( <track-breadth> , <track-breadth> )"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "Grid containers"
+    },
+    {
+      "name": "Computed value",
+      "content": "Depends on the specific track sizing"
+    },
+    {
+      "name": "Note",
+      "content": "<track-breadth> is a stand-in for <length> | <percentage> | <flex> | mincontent | max-content | auto"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

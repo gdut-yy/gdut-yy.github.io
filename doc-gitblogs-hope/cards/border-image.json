@@ -1,0 +1,29 @@
+{
+  "title": "border-image",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<border-image-source> ‖ <border-image-slice> [ / <border-image-width> | /<border-image-width>? / <border-image-outset> ]? ‖ <border-image-repeat>"
+    },
+    {
+      "name": "Initial value",
+      "content": "See individual properties"
+    },
+    {
+      "name": "Applies to",
+      "content": "See individual properties"
+    },
+    {
+      "name": "Computed value",
+      "content": "See individual properties"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "See individual properties"
+    }
+  ]
+}

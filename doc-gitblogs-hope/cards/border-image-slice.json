@@ -1,0 +1,33 @@
+{
+  "title": "border-image-slice",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "[ <number> | <percentage> ]{1,4} && fill?"
+    },
+    {
+      "name": "Initial value",
+      "content": "100%"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements, except internal table elements when border-collapse is collapse"
+    },
+    {
+      "name": "Percentages",
+      "content": "Refer to size of the border image"
+    },
+    {
+      "name": "Computed value",
+      "content": "As four values, each a number or percentage, and optionally the fill keyword"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "<number>, <percentage>"
+    }
+  ]
+}

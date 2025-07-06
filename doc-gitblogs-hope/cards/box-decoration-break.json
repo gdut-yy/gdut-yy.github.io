@@ -1,0 +1,29 @@
+{
+  "title": "box-decoration-break",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "slice | clone"
+    },
+    {
+      "name": "Initial value",
+      "content": "slice"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

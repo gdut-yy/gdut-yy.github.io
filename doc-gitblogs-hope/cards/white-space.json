@@ -1,0 +1,29 @@
+{
+  "title": "white-space",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "normal | nowrap | pre | pre-wrap | pre-line"
+    },
+    {
+      "name": "Initial value",
+      "content": "normal"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements (CSS 2.1); block-level elements (CSS1 and CSS2)"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    }
+  ]
+}

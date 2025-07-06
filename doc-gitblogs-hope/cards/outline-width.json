@@ -1,0 +1,29 @@
+{
+  "title": "outline-width",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<length> | thin | medium | thick"
+    },
+    {
+      "name": "Initial value",
+      "content": "medium"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "An absolute length, or 0 if the style of the outline is none"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

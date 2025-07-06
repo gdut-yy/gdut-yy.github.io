@@ -1,0 +1,13 @@
+{
+  "title": "pad descriptor",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<integer> && <symbol>"
+    },
+    {
+      "name": "Initial value",
+      "content": "0 \"\""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "list-style-position",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "inside | outside | inherit"
+    },
+    {
+      "name": "Initial value",
+      "content": "outside"
+    },
+    {
+      "name": "Applies to",
+      "content": "Elements whose display value is list-item"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    }
+  ]
+}

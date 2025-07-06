@@ -1,0 +1,25 @@
+{
+  "title": "text-rendering",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "auto | optimizeSpeed | optimizeLegibility | geometricPrecision"
+    },
+    {
+      "name": "Initial value",
+      "content": "auto"
+    },
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

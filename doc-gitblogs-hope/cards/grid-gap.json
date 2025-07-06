@@ -1,0 +1,29 @@
+{
+  "title": "grid-gap",
+  "attr": [
+    {
+      "name": "Values",
+      "content": "<grid-row-gap> <grid-column-gap>"
+    },
+    {
+      "name": "Initial value",
+      "content": "0 0"
+    },
+    {
+      "name": "Applies to",
+      "content": "Grid containers"
+    },
+    {
+      "name": "Computed value",
+      "content": "As declared"
+    },
+    {
+      "name": "Inherited",
+      "content": "No"
+    },
+    {
+      "name": "Animatable",
+      "content": "Yes"
+    }
+  ]
+}

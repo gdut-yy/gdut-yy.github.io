@@ -1,0 +1,37 @@
+{
+  "title": "font-variant",
+  "attr": [
+    {
+      "name": "Values (CSS2.1)",
+      "content": "normal | small-caps"
+    },
+    {
+      "name": "Values (Level 3) ",
+      "content": "normal | none | [ <common-lig-values> ‖ <discretionary-lig-values> ‖ <historicallig-values> ‖ <contextual-alt-values> ‖ stylistic(<feature-value-name>) ‖ historical-forms ‖ styleset(<feature-value-name>#) ‖ charactervariant(<feature-value-name>#) ‖ swash(<feature-value-name>) ‖ ornaments(<feature-value-name>) ‖ annotation(<feature-value-name>) ‖ [ smallcaps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps ] ‖ <numeric-figure-values> ‖ <numeric-spacing-values> ‖ <numeric-fraction-values> ‖ ordinal ‖ slashed-zero ‖ <east-asian-variantvalues> ‖ <east-asian-width-values> ‖ ruby ] "
+    },
+    {
+      "name": "Initial value",
+      "content": "normal"
+    },    
+    {
+      "name": "Applies to",
+      "content": "All elements"
+    },
+    {
+      "name": "Computed value",
+      "content": "As specified"
+    },
+    {
+      "name": "Inherited",
+      "content": "Yes"
+    },
+    {
+      "name": "Animatable",
+      "content": "No"
+    },
+    {
+      "name": "Note",
+      "content": "Has a corresponding @font-face descriptor (see below)"
+    }
+  ]
+}

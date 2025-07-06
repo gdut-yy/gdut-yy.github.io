@@ -1,0 +1,45 @@
+{
+  "title": "@counter-style descriptors",
+  "attr": [
+    {
+      "name": "system",
+      "content": "Defines the counter patterning system to be used. The available values are fixed, cyclic, alphabetic, numeric, symbolic, additive, and extends."
+    },
+    {
+      "name": "symbols",
+      "content": "Defines the counter symbols to be used in the counter pattern. This descriptor is required for all marker systems except additive and extends."
+    },
+    {
+      "name": "additive-symbols",
+      "content": "Defines the counter symbols to be used in additive counter patterns."
+    },
+    {
+      "name": "prefix",
+      "content": "Defines a string or symbol to be included just before each counter in the pattern."
+    },
+    {
+      "name": "suffix",
+      "content": "Defines a string or symbol to be included just after each counter in the pattern."
+    },
+    {
+      "name": "negative",
+      "content": "Defines strings or symbol to be included around any negative-value counter."
+    },
+    {
+      "name": "range",
+      "content": "Defines the range of values in which the counter pattern should be applied. Any counter outside the defined range uses the fallback counter style."
+    },
+    {
+      "name": "fallback",
+      "content": "Defines the counter pattern that should be used when the value can’t be represented by the primary counter pattern, or the value is outside a defined range for the counters."
+    },
+    {
+      "name": "pad",
+      "content": "Defines a minimum number of characters for all counters in the pattern, with any extra space filled in with a defined symbol or set of symbols."
+    },
+    {
+      "name": "speak-as",
+      "content": "Defines a strategy for speaking the counter in text-to-speech systems."
+    }
+  ]
+}
